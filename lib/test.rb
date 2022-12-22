@@ -55,3 +55,20 @@
 #   end
 # end
 # binary_multiple_of_4? (s)
+
+
+
+class BookInStock
+  attr_reader :isbn
+  attr_reader :price
+
+  def initialize(isbn,price)
+    @isbn = isbn
+    @price = price
+  end
+  
+end
+
+a = BookInStock.new('1121',150.00)
+puts a.isbn
+puts a.price
