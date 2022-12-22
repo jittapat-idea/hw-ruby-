@@ -48,7 +48,16 @@ def hello(name)
 end
 
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  if s[0] =~/[a-zA-Z]/
+    case s[0].downcase
+    when "a","e","o","u","i"
+      return false
+    else
+      return true
+    end 
+  else
+    return false
+  end
 end
 
 def binary_multiple_of_4? s

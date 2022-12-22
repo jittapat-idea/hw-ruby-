@@ -35,3 +35,8 @@
 #     end
 #   end
 # end
+
+# aeiou = ["a","e","i","o","u"]
+#  s = "Tool"
+# #  puts s[0].downcase
+# #  puts !aeiou.include?(s[0].downcase)
