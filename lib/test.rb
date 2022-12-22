@@ -40,3 +40,18 @@
 #  s = "Tool"
 # #  puts s[0].downcase
 # #  puts !aeiou.include?(s[0].downcase)
+
+
+# s = "1010101010100 0101010101010100 100 0"
+# # puts s.delete(' ')
+# ans = 0
+# def binary_multiple_of_4? s
+#   puts s.delete(' ')
+#   puts ans = s.to_i(2)
+#   if ans % 4 == 0
+#     puts "true"
+#   else
+#     puts "false"
+#   end
+# end
+# binary_multiple_of_4? (s)

@@ -60,9 +60,26 @@ def starts_with_consonant? s
   end
 end
 
+
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+  s.delete(' ')
+  if s.empty?
+    return false
+  end
+  if s =~ /^[01]*$/ #นิพจน์ที่ต้องเริ่มด้วย 0 หรือ 1 เเละจะมี 0 หรือ 1ต่อด้วยก็ได้เเต่ต้องเป็น 0 หรืือ 1 เเละปิดด้วย 0 หรือ 1 เท่านั้น
+    ans = 0
+    ans = s.to_i(2)
+    if ans % 4 == 0 
+      return true 
+    else
+      return false
+    end 
+  else
+    return false
+  end
+
 end
+
 
 # Part 3
 
